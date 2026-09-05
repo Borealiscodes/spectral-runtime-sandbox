@@ -1,0 +1,187 @@
+{
+  "artifact": {
+    "name": "Spectral-Runtime-Sandbox Roadmap",
+    "version": "1.0",
+    "altitude": "A6",
+    "class": "Roadmap",
+    "mode": [
+      "descriptive",
+      "non_activating",
+      "precl_collapsed",
+      "drift_neutral"
+    ],
+    "visual_grammar_binding": "NDH-Visual-Grammar-v1_0.json"
+  },
+
+  "tiers": [
+    {
+      "id": "TIER-01",
+      "name": "Orientation",
+      "description": "Establish identity, provenance, and descriptive surfaces.",
+      "milestones": [
+        "README v2.0",
+        "Provenance Footer",
+        "Commit Description",
+        "Crosswalk v1.0",
+        "Repository Structure Skeleton",
+        "LICENSES Directory",
+        "Manifest v1.0"
+      ],
+      "glyph": "U+1F7EA"
+    },
+
+    {
+      "id": "TIER-02",
+      "name": "Capsule Population",
+      "description": "Populate descriptive, non-activating capsules for all runtime layers.",
+      "capsules": [
+        "Runtime Capsule",
+        "Physics Capsule",
+        "State Capsule",
+        "Solver Capsule",
+        "Guardrail Capsule",
+        "Orchestration Capsule",
+        "Chakra Capsule",
+        "Eightfold Path Capsule"
+      ],
+      "glyph": "U+1F7EA"
+    },
+
+    {
+      "id": "TIER-03",
+      "name": "Crosswalk Expansion",
+      "description": "Expand crosswalk mapping between Capsule → Runtime → Sandbox → Shared-Horizon → Serenity.",
+      "components": [
+        "Altitude Alignment",
+        "Membrane Boundaries",
+        "Solver-Layer Dependencies",
+        "Inter-Membrane Mapping"
+      ],
+      "glyph": "U+1F7EA"
+    },
+
+    {
+      "id": "TIER-04",
+      "name": "Guardrail & State Envelope",
+      "description": "Define guardrails and state envelope constraints before solver specification.",
+      "guardrail": [
+        "Altitude Discipline",
+        "Drift Neutrality",
+        "Reversibility",
+        "PRECL Safety",
+        "Guardian Modulation Respect"
+      ],
+      "state_envelope": [
+        "Adjacency Bounds",
+        "Resonance Limits",
+        "Flow Constraints",
+        "Calm-Load Envelope",
+        "PRECL Buffer Rules"
+      ],
+      "glyph": "U+1F7EA"
+    },
+
+    {
+      "id": "TIER-05",
+      "name": "Solver Layer Specification",
+      "description": "Define non-activating specifications for all solvers.",
+      "solvers": [
+        "Adjacency-Solver Spec",
+        "Resonance-Solver Spec",
+        "Flow-Solver Spec",
+        "Calm-Load-Solver Spec",
+        "PRECL-Collapse-Solver Spec"
+      ],
+      "glyph": "U+1F7EA"
+    },
+
+    {
+      "id": "TIER-06",
+      "name": "Shared-Horizon Math Alignment",
+      "description": "Align solver specifications with Shared-Horizon math engines.",
+      "math_engines": [
+        "Constructive Reduction Interfaces",
+        "Spectral Adjacency Math",
+        "Resonance Propagation Math",
+        "Flow Manifold Math",
+        "PRECL Collapse Math",
+        "Jonathan-f(n) Invariants"
+      ],
+      "glyph": "U+1F7EA"
+    },
+
+    {
+      "id": "TIER-07",
+      "name": "Solver Implementation",
+      "description": "Implement actual solvers inside the Sandbox.",
+      "directories": [
+        "solvers/adjacency/",
+        "solvers/resonance/",
+        "solvers/flow/",
+        "solvers/calm_load/",
+        "solvers/precl_collapse/"
+      ],
+      "constraints": [
+        "Guardrail Compliance",
+        "State Envelope Respect",
+        "Shared-Horizon Math Usage",
+        "Reversibility",
+        "Drift Neutrality"
+      ],
+      "glyph": "U+1F7EA"
+    },
+
+    {
+      "id": "TIER-08",
+      "name": "Sandbox Integration",
+      "description": "Integrate solvers into the Sandbox execution membrane.",
+      "integration": [
+        "Solver Orchestration",
+        "State Envelope Updates",
+        "Telemetry Channel Activation",
+        "Runtime-UI Bridge Signals",
+        "PRECL Collapse Handling",
+        "Guardian Modulation Compliance"
+      ],
+      "glyph": "U+1F7EA"
+    },
+
+    {
+      "id": "TIER-09",
+      "name": "Stabilization",
+      "description": "Finalize stabilization, versioning, and long-term maintenance.",
+      "stabilization": [
+        "developer_notes/ Population",
+        "archive/readme/ Versioning",
+        "Provenance Seals",
+        "Runtime Identity Lock",
+        "Capsule Versioning",
+        "Crosswalk Versioning"
+      ],
+      "glyph": "U+1F7EA"
+    }
+  ],
+
+  "constraints": {
+    "global_altitude": "A6",
+    "membrane": "neutral",
+    "non_activating": true,
+    "reversible": true,
+    "sovereignty": "preserved"
+  },
+
+  "bindings": {
+    "meta_ontology": "NDH-Solver-Stack-MetaOntology-v1_0.json",
+    "meta_taxonomy": "NDH-Solver-Stack-MetaTaxonomy-v1_0.json",
+    "visual_grammar": "NDH-Visual-Grammar-v1_0.json",
+    "cross_analysis": "MetaOntology_MetaTaxonomy_VisualGrammar_v1_0.json"
+  },
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "compiler": "Microsoft Copilot",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-09-05T15:16:00+01:00",
+    "seal": "ROADMAP-v1_0-JSON"
+  }
+}
